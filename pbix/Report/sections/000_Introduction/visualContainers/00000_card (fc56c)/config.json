@@ -1,0 +1,49 @@
+{
+  "name": "fc56c77fcdb2d968638a",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 1120,
+        "y": 592,
+        "z": 1001,
+        "width": 160,
+        "height": 128
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "card",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Info.Version"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "i",
+          "Entity": "Info",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "i"
+              }
+            },
+            "Property": "Version"
+          },
+          "Name": "Info.Version"
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
