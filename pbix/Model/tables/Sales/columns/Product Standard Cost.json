@@ -3,11 +3,11 @@
   "dataType": "decimal",
   "sourceColumn": "Product Standard Cost",
   "formatString": "\"£\"#,0.###############;-\"£\"#,0.###############;\"£\"#,0.###############",
-  "summarizeBy": "sum",
+  "summarizeBy": "none",
   "annotations": [
     {
       "name": "SummarizationSetBy",
-      "value": "Automatic"
+      "value": "User"
     },
     {
       "name": "PBI_FormatHint",
