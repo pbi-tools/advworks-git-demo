@@ -3,11 +3,11 @@
   "dataType": "int64",
   "sourceColumn": "Order Quantity",
   "formatString": "0",
-  "summarizeBy": "sum",
+  "summarizeBy": "none",
   "annotations": [
     {
       "name": "SummarizationSetBy",
-      "value": "Automatic"
+      "value": "User"
     }
   ]
 }
